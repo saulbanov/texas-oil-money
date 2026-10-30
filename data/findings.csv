@@ -1,0 +1,9 @@
+key,window,who,period,raised,oil_gas,oil_share,oil_rank,top_industry,next_industry,next_dollars,next_share,not_identified_share,narrow_oil,narrow_share,narrow_vs_next
+career:abbott,career,Greg Abbott,"June 2001 to Oct. 24, 2026 (Texans for Greg Abbott)",507770401.76,82782773.15,0.163032,1,Oil & Gas,Securities & Investment,48530637.30,0.095576,0.228065,64916092.87,0.127845,yes
+career:patrick,career,Dan Patrick,"2008 to Oct. 24, 2026 (Texans for Dan Patrick)",129441203.52,18845479.16,0.145591,1,Oil & Gas,Real Estate,12014158.31,0.092816,0.153711,15870983.25,0.122612,yes
+career:paxton_career_own,career,"Ken Paxton, his own committees","2002 to Oct. 2026 (state account 2002-2024; Ken Paxton for Senate and Paxton Victory, 2026 cycle)",79774627.45,10809101.61,0.135495,1,Oil & Gas,Securities & Investment,5595065.08,0.070136,0.372193,10196779.13,0.127820,yes
+career:paxton_career,career,"Ken Paxton, with the super PAC","same as above, plus Lone Star Liberty PAC, 2026 cycle",109470949.28,13653060.07,0.124719,1,Oil & Gas,Tech & Internet,12777195.24,0.116718,0.295570,12859747.80,0.117472,yes
+2025-26:abbott,2025-26,Greg Abbott,"Jan. 1, 2025 to Oct. 24, 2026",117553355.26,19739495.27,0.167919,1,Oil & Gas,Securities & Investment,11125862.15,0.094645,0.135968,14952072.98,0.127194,yes
+2025-26:patrick,2025-26,Dan Patrick,"Jan. 1, 2025 to Oct. 24, 2026",26523733.01,4710510.40,0.177596,1,Oil & Gas,Real Estate,2778461.16,0.104754,0.114820,3899536.06,0.147021,yes
+2025-26:paxton_victory,2025-26,"Ken Paxton, joint committee",2026 cycle (Paxton Victory),12047495.63,2876400.00,0.238755,1,Oil & Gas,Securities & Investment,1171400.00,0.097232,0.143652,2671400.00,0.221739,yes
+2025-26:paxton_combined,2025-26,"Ken Paxton, three committees","2026 cycle (Senate campaign, joint committee, super PAC)",64063176.51,6252819.45,0.097604,2,Tech & Internet,Tech & Internet,12104146.36,0.188941,0.336665,5806505.18,0.090637,no

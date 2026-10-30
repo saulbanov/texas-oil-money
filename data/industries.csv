@@ -1,0 +1,65 @@
+key,window,who,rank,industry,sector,dollars,share,donors
+career:abbott:1,career,Greg Abbott,1,Oil & Gas,Energy & Natural Resources,82782773.15,0.163032,1035
+career:abbott:2,career,Greg Abbott,2,Securities & Investment,"Finance, Insurance & Real Estate",48530637.30,0.095576,1110
+career:abbott:3,career,Greg Abbott,3,Real Estate,"Finance, Insurance & Real Estate",34051461.93,0.067061,1101
+career:abbott:4,career,Greg Abbott,4,"Retail, Food & Beverage",Misc Business,28815783.82,0.056750,287
+career:abbott:5,career,Greg Abbott,5,Construction & Contractors,Construction,27338136.94,0.053840,504
+career:abbott:6,career,Greg Abbott,6,"Energy, other",Energy & Natural Resources,17130769.92,0.033737,489
+career:abbott:7,career,Greg Abbott,7,Lawyers / Law Firms,Lawyers & Lobbyists,15458991.59,0.030445,1692
+career:abbott:8,career,Greg Abbott,8,Tech & Internet,Communications/Electronics,14261702.30,0.028087,130
+career:patrick:1,career,Dan Patrick,1,Oil & Gas,Energy & Natural Resources,18845479.16,0.145591,483
+career:patrick:2,career,Dan Patrick,2,Real Estate,"Finance, Insurance & Real Estate",12014158.31,0.092816,509
+career:patrick:3,career,Dan Patrick,3,Securities & Investment,"Finance, Insurance & Real Estate",10548197.29,0.081490,354
+career:patrick:4,career,Dan Patrick,4,"Retail, Food & Beverage",Misc Business,9238103.80,0.071369,135
+career:patrick:5,career,Dan Patrick,5,Construction & Contractors,Construction,6891912.97,0.053244,238
+career:patrick:6,career,Dan Patrick,6,Car Dealers,Transportation,6264719.20,0.048398,190
+career:patrick:7,career,Dan Patrick,7,Business Services & Associations,Misc Business,4989560.57,0.038547,246
+career:patrick:8,career,Dan Patrick,8,Lawyers / Law Firms,Lawyers & Lobbyists,4946827.94,0.038217,576
+career:paxton_career:1,career,"Ken Paxton, with the super PAC",1,Oil & Gas,Energy & Natural Resources,13653060.07,0.124719,564
+career:paxton_career:2,career,"Ken Paxton, with the super PAC",2,Tech & Internet,Communications/Electronics,12777195.24,0.116718,222
+career:paxton_career:3,career,"Ken Paxton, with the super PAC",3,Securities & Investment,"Finance, Insurance & Real Estate",6245357.03,0.057050,499
+career:paxton_career:4,career,"Ken Paxton, with the super PAC",4,Candidate & Party Committees,Ideological/Single-Issue,6043635.86,0.055208,84
+career:paxton_career:5,career,"Ken Paxton, with the super PAC",5,Lawyers / Law Firms,Lawyers & Lobbyists,5062549.72,0.046246,1075
+career:paxton_career:6,career,"Ken Paxton, with the super PAC",6,Ideological & Single-Issue Groups,Ideological/Single-Issue,4159393.14,0.037995,63
+career:paxton_career:7,career,"Ken Paxton, with the super PAC",7,Real Estate,"Finance, Insurance & Real Estate",3651966.59,0.033360,809
+career:paxton_career:8,career,"Ken Paxton, with the super PAC",8,Business Services & Associations,Misc Business,3306303.50,0.030203,262
+career:paxton_career_own:1,career,"Ken Paxton, his own committees",1,Oil & Gas,Energy & Natural Resources,10809101.61,0.135495,542
+career:paxton_career_own:2,career,"Ken Paxton, his own committees",2,Securities & Investment,"Finance, Insurance & Real Estate",5595065.08,0.070136,472
+career:paxton_career_own:3,career,"Ken Paxton, his own committees",3,Lawyers / Law Firms,Lawyers & Lobbyists,3449765.94,0.043244,1054
+career:paxton_career_own:4,career,"Ken Paxton, his own committees",4,Real Estate,"Finance, Insurance & Real Estate",3105602.82,0.038930,788
+career:paxton_career_own:5,career,"Ken Paxton, his own committees",5,Business Services & Associations,Misc Business,3091303.50,0.038750,259
+career:paxton_career_own:6,career,"Ken Paxton, his own committees",6,Ideological & Single-Issue Groups,Ideological/Single-Issue,3059393.14,0.038350,61
+career:paxton_career_own:7,career,"Ken Paxton, his own committees",7,Recreation / Live Entertainment,Misc Business,2392046.08,0.029985,35
+career:paxton_career_own:8,career,"Ken Paxton, his own committees",8,"Retail, Food & Beverage",Misc Business,2060615.27,0.025830,129
+2025-26:abbott:1,2025-26,Greg Abbott,1,Oil & Gas,Energy & Natural Resources,19739495.27,0.167919,121
+2025-26:abbott:2,2025-26,Greg Abbott,2,Securities & Investment,"Finance, Insurance & Real Estate",11125862.15,0.094645,118
+2025-26:abbott:3,2025-26,Greg Abbott,3,Tech & Internet,Communications/Electronics,10131050.00,0.086183,21
+2025-26:abbott:4,2025-26,Greg Abbott,4,"Retail, Food & Beverage",Misc Business,8461377.84,0.071979,41
+2025-26:abbott:5,2025-26,Greg Abbott,5,Real Estate,"Finance, Insurance & Real Estate",7787218.97,0.066244,124
+2025-26:abbott:6,2025-26,Greg Abbott,6,Construction & Contractors,Construction,7512377.87,0.063906,58
+2025-26:abbott:7,2025-26,Greg Abbott,7,"Energy, other",Energy & Natural Resources,5302861.73,0.045110,57
+2025-26:abbott:8,2025-26,Greg Abbott,8,Insurance,"Finance, Insurance & Real Estate",3746116.04,0.031867,14
+2025-26:patrick:1,2025-26,Dan Patrick,1,Oil & Gas,Energy & Natural Resources,4710510.40,0.177596,65
+2025-26:patrick:2,2025-26,Dan Patrick,2,Real Estate,"Finance, Insurance & Real Estate",2778461.16,0.104754,68
+2025-26:patrick:3,2025-26,Dan Patrick,3,Securities & Investment,"Finance, Insurance & Real Estate",2722015.66,0.102626,53
+2025-26:patrick:4,2025-26,Dan Patrick,4,"Retail, Food & Beverage",Misc Business,1950187.89,0.073526,33
+2025-26:patrick:5,2025-26,Dan Patrick,5,Construction & Contractors,Construction,1384290.95,0.052191,44
+2025-26:patrick:6,2025-26,Dan Patrick,6,Business Services & Associations,Misc Business,1217059.32,0.045886,27
+2025-26:patrick:7,2025-26,Dan Patrick,7,"Energy, other",Energy & Natural Resources,1211848.88,0.045689,58
+2025-26:patrick:8,2025-26,Dan Patrick,8,Tech & Internet,Communications/Electronics,1135332.38,0.042804,14
+2025-26:paxton_victory:1,2025-26,"Ken Paxton, joint committee",1,Oil & Gas,Energy & Natural Resources,2876400.00,0.238755,20
+2025-26:paxton_victory:2,2025-26,"Ken Paxton, joint committee",2,Securities & Investment,"Finance, Insurance & Real Estate",1171400.00,0.097232,15
+2025-26:paxton_victory:3,2025-26,"Ken Paxton, joint committee",3,Lawyers / Law Firms,Lawyers & Lobbyists,1003800.00,0.083320,11
+2025-26:paxton_victory:4,2025-26,"Ken Paxton, joint committee",4,Tech & Internet,Communications/Electronics,949300.00,0.078796,7
+2025-26:paxton_victory:5,2025-26,"Ken Paxton, joint committee",5,Recreation / Live Entertainment,Misc Business,912000.00,0.075700,5
+2025-26:paxton_victory:6,2025-26,"Ken Paxton, joint committee",6,Business Services & Associations,Misc Business,649000.00,0.053870,5
+2025-26:paxton_victory:7,2025-26,"Ken Paxton, joint committee",7,Hospitals & Nursing Homes,Health,434000.00,0.036024,3
+2025-26:paxton_victory:8,2025-26,"Ken Paxton, joint committee",8,Ideological & Single-Issue Groups,Ideological/Single-Issue,368800.00,0.030612,3
+2025-26:paxton_combined:1,2025-26,"Ken Paxton, three committees",1,Tech & Internet,Communications/Electronics,12104146.36,0.188941,127
+2025-26:paxton_combined:2,2025-26,"Ken Paxton, three committees",2,Oil & Gas,Energy & Natural Resources,6252819.45,0.097604,245
+2025-26:paxton_combined:3,2025-26,"Ken Paxton, three committees",3,Candidate & Party Committees,Ideological/Single-Issue,5383967.48,0.084042,18
+2025-26:paxton_combined:4,2025-26,"Ken Paxton, three committees",4,Lawyers / Law Firms,Lawyers & Lobbyists,3236653.65,0.050523,414
+2025-26:paxton_combined:5,2025-26,"Ken Paxton, three committees",5,Securities & Investment,"Finance, Insurance & Real Estate",2396696.05,0.037411,237
+2025-26:paxton_combined:6,2025-26,"Ken Paxton, three committees",6,Health Services & Pharmaceuticals,Health,1539971.14,0.024038,103
+2025-26:paxton_combined:7,2025-26,"Ken Paxton, three committees",7,Ideological & Single-Issue Groups,Ideological/Single-Issue,1497461.55,0.023375,19
+2025-26:paxton_combined:8,2025-26,"Ken Paxton, three committees",8,Recreation / Live Entertainment,Misc Business,1491766.13,0.023286,18

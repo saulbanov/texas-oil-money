@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Oil and gas has given more to Greg Abbott, Dan Patrick and Ken Paxton than any other industry. The count, and the filings behind it.">
+<title>Oil Money. Texas Power.</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=League+Gothic&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Unbounded:wght@500;600&display=swap');
+:root {
+  --fh-page: #1A1208;
+  --fh-paper: #20170D;
+  --fh-ink: #CFC3A3;
+  --fh-muted: #B1A589;
+  --fh-panel: #2A1E12;
+  --fh-panel-soft: #241A10;
+  --fh-rule: #675435;
+  --fh-link: #E0AF45;
+  --fh-target: #342713;
+  --fh-gold: #C9901A;
+  --fh-red: #A84425;
+  --fh-serif: 'Lora', Georgia, serif;
+  --fh-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --fh-display: 'League Gothic', 'Arial Narrow', Impact, sans-serif;
+  --fh-logo: 'Unbounded', 'Helvetica Neue', Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 16px; }
+body {
+  margin: 0;
+  background: var(--fh-page);
+  color: var(--fh-ink);
+  font-family: var(--fh-serif);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--fh-link); text-decoration-color: var(--fh-gold); text-underline-offset: .18em; }
+a:hover { text-decoration-thickness: 2px; }
+.fh-page {
+  width: min(100%, 1180px);
+  margin: 0 auto;
+  border-top: 6px solid var(--fh-red);
+  background: var(--fh-paper);
+}
+.fh-brandbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 clamp(24px, 6vw, 84px);
+  padding: 24px 0 16px;
+  border-bottom: 1px solid var(--fh-rule);
+  color: var(--fh-muted);
+  font: 600 11px/1.3 var(--fh-mono);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.fh-brand {
+  color: var(--fh-ink);
+  font-family: var(--fh-logo);
+  font-size: 10px;
+  letter-spacing: .13em;
+}
+.fh-hero { padding: clamp(52px, 9vw, 112px) clamp(24px, 9vw, 106px) clamp(44px, 7vw, 84px); }
+.fh-kicker {
+  margin: 0 0 24px;
+  color: var(--fh-red);
+  font: 600 12px/1.3 var(--fh-mono);
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+.fh-hero h1 {
+  max-width: 16.5ch;
+  margin: 0;
+  font-family: var(--fh-display);
+  font-size: clamp(4.1rem, 8vw, 7.7rem);
+  font-weight: 400;
+  letter-spacing: -.018em;
+  line-height: .94;
+  text-transform: none;
+  text-wrap: balance;
+}
+.fh-deck { max-width: 43em; margin-top: 34px; color: var(--fh-muted); }
+.fh-deck p { margin: 0; font-size: clamp(1.18rem, 2.15vw, 1.48rem); line-height: 1.58; }
+.fh-document-body {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 32px 100px;
+  counter-reset: fh-section;
+}
+.fh-document-body > p,
+.fh-document-body > ul,
+.fh-document-body > ol { font-size: 1.08rem; line-height: 1.78; }
+.fh-document-body p { margin: 0 0 1.35em; }
+.fh-document-body li { margin-bottom: .58em; }
+.fh-document-body h2 {
+  counter-increment: fh-section;
+  margin: 4.2rem 0 1.15rem;
+  padding-top: .2rem;
+  font-family: var(--fh-display);
+  font-size: clamp(3rem, 5.6vw, 4.6rem);
+  font-weight: 400;
+  line-height: .98;
+  letter-spacing: -.01em;
+  text-transform: none;
+  text-wrap: balance;
+}
+.fh-document-body h2::before {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--fh-red);
+  font: 600 10px/1.2 var(--fh-mono);
+  letter-spacing: .18em;
+  content: counter(fh-section, decimal-leading-zero) ' /';
+}
+.fh-document-body h2::after {
+  display: block;
+  width: 44px;
+  height: 2px;
+  margin-top: 14px;
+  background: var(--fh-gold);
+  content: '';
+}
+.fh-document-body h3 {
+  margin: 2.8rem 0 1rem;
+  font: 600 clamp(1.55rem, 3vw, 2.15rem)/1.18 var(--fh-mono);
+  letter-spacing: .045em;
+  text-transform: none;
+  text-wrap: balance;
+}
+.fh-document-body h4 {
+  margin: 2.8rem 0 1rem;
+  font: 600 12px/1.4 var(--fh-mono);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.fh-document-body h4.doctitle {
+  margin: 2rem 0 .45rem;
+  color: var(--fh-ink);
+  font: 600 1.18rem/1.32 var(--fh-mono);
+  letter-spacing: .025em;
+  text-transform: none;
+}
+.fh-document-body .document-file {
+  margin: 0 0 .8rem;
+  color: var(--fh-muted);
+  font-size: .78rem;
+  overflow-wrap: anywhere;
+}
+.toc {
+  margin: 42px 0 24px;
+  padding: 30px 0 26px;
+  border-top: 1px solid var(--fh-rule);
+  border-bottom: 1px solid var(--fh-rule);
+}
+.toc::before {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--fh-muted);
+  font: 600 10px/1.2 var(--fh-mono);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  content: 'In this document';
+}
+.toc ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 42px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: fh-toc;
+}
+.toc li {
+  margin: 0;
+  padding: 14px 0 12px;
+  border-top: 1px solid var(--fh-rule);
+  counter-increment: fh-toc;
+}
+.toc a {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  align-items: baseline;
+  color: var(--fh-ink);
+  font: 400 1.62rem/.98 var(--fh-display);
+  text-decoration: none;
+}
+.toc a::before {
+  color: var(--fh-gold);
+  font: 600 9px/1 var(--fh-mono);
+  letter-spacing: .08em;
+  content: counter(fh-toc, decimal-leading-zero);
+}
+.toc a:hover { color: var(--fh-red); }
+.fh-callout {
+  margin: 34px 0;
+  padding: 25px 28px 7px;
+  border-top: 1px solid var(--fh-gold);
+  border-bottom: 1px solid var(--fh-gold);
+  background: var(--fh-panel-soft);
+}
+.fh-callout-label {
+  margin: 0 0 16px !important;
+  color: var(--fh-red);
+  font: 600 10px/1.2 var(--fh-mono) !important;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.fh-callout p { margin-bottom: 18px; font-size: .98rem; line-height: 1.65; }
+.fh-callout-label + p {
+  margin-bottom: 8px;
+  color: var(--fh-ink);
+  font-size: 1.22rem;
+  line-height: 1.35;
+}
+.fh-callout p > strong:first-child > a {
+  color: var(--fh-link);
+  font: 600 .92rem/1.35 var(--fh-mono);
+  letter-spacing: .025em;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.fh-callout h4 {
+  margin: 20px 0 8px;
+  padding-top: 16px;
+  border-top: 1px solid var(--fh-rule);
+  color: var(--fh-red);
+  font: 600 10px/1.2 var(--fh-mono);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.fh-callout h4:first-of-type { margin-top: 12px; }
+.fh-method-note {
+  margin: 4.8rem 0 2rem;
+  padding: 28px 30px 24px;
+  border: 1px solid var(--fh-rule);
+  border-left: 4px solid var(--fh-gold);
+  border-radius: 2px;
+  background: var(--fh-panel);
+  color: var(--fh-muted);
+}
+.fh-method-note-label {
+  margin: 0 0 16px !important;
+  color: var(--fh-link);
+  font: 600 10px/1.2 var(--fh-mono) !important;
+  font-style: normal !important;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.fh-method-note p,
+.fh-method-note li { font-size: .92rem; font-style: italic; line-height: 1.68; }
+.fh-method-note strong { color: var(--fh-ink); font-style: normal; }
+.fh-method-note p:last-child { margin-bottom: 0; }
+.fh-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 28px;
+  margin: 34px 0;
+  padding: 26px 0;
+  border-top: 1px solid var(--fh-rule);
+  border-bottom: 1px solid var(--fh-rule);
+}
+.fh-stat-value { color: var(--fh-ink); font: 600 clamp(1.9rem, 4vw, 2.8rem)/1 var(--fh-mono); }
+.fh-stat-caption p { margin: 10px 0 0; color: var(--fh-muted); font: 400 .78rem/1.55 var(--fh-mono); }
+.fh-timeline {
+  margin: 2.2rem 0 3.2rem;
+  padding: 0;
+  border-top: 1px solid var(--fh-rule);
+  list-style: none;
+}
+.fh-timeline > li {
+  display: grid;
+  grid-template-columns: 126px minmax(0, 1fr);
+  gap: 28px;
+  margin: 0;
+  padding: 20px 0 22px;
+  border-bottom: 1px solid var(--fh-rule);
+}
+.fh-timeline time {
+  color: var(--fh-red);
+  font: 600 .76rem/1.45 var(--fh-mono);
+  letter-spacing: .055em;
+}
+.fh-timeline-event p { margin: 0; font-size: 1rem; line-height: 1.68; }
+blockquote {
+  margin: 2.2rem 0;
+  padding: .2rem 0 .2rem 26px;
+  border-left: 2px solid var(--fh-gold);
+  color: var(--fh-muted);
+  font-size: 1.24rem;
+  line-height: 1.62;
+}
+blockquote p:last-child { margin-bottom: 0; }
+table { width: 100%; margin: 1.8rem 0 2.2rem; border-collapse: collapse; font-size: .92rem; line-height: 1.55; }
+th { color: var(--fh-muted); font: 600 .72rem/1.4 var(--fh-mono); letter-spacing: .08em; text-align: left; text-transform: uppercase; }
+th, td { padding: 12px 14px; border-bottom: 1px solid var(--fh-rule); vertical-align: top; }
+code { font-family: var(--fh-mono); font-size: .86em; }
+sup { line-height: 0; }
+.footnote-ref {
+  display: inline-block;
+  min-width: 1.45em;
+  margin-left: .12em;
+  padding: .16em .32em;
+  border-radius: 3px;
+  background: var(--fh-panel);
+  color: var(--fh-link);
+  font: 600 .68rem/1 var(--fh-mono);
+  text-align: center;
+  text-decoration: none;
+}
+.footnote { margin-top: 5rem; padding-top: 1.5rem; border-top: 1px solid var(--fh-rule); color: var(--fh-muted); }
+.footnote::before { font: 600 10px/1.2 var(--fh-mono); letter-spacing: .18em; text-transform: uppercase; content: 'Sources'; }
+.footnote > hr { display: none; }
+.footnote ol { padding-left: 1.6rem; }
+.footnote li { margin: 0 0 1rem; padding-left: .3rem; font-size: .82rem; line-height: 1.6; }
+.footnote li:target { margin-left: -.5rem; padding: .7rem .7rem .7rem .8rem; background: var(--fh-target); }
+.footnote-backref { margin-left: .35rem; font-family: var(--fh-mono); text-decoration: none; }
+.fh-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  margin: 0 clamp(24px, 6vw, 84px);
+  padding: 28px 0 36px;
+  border-top: 1px solid var(--fh-rule);
+  color: var(--fh-muted);
+  font: 400 11px/1.6 var(--fh-mono);
+}
+@media (max-width: 680px) {
+  .fh-brandbar, .fh-footer { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .fh-hero { padding-top: 48px; }
+  .fh-document-body { padding-inline: 22px; }
+  .fh-callout { margin-inline: -8px; padding-inline: 18px; }
+  .fh-method-note { margin-inline: -8px; padding-inline: 20px; }
+  .toc ul { grid-template-columns: 1fr; }
+  .fh-timeline > li { grid-template-columns: 1fr; gap: 8px; }
+  .fh-document-body table { display: block; overflow-x: auto; }
+}
+@media print {
+  body, .fh-page { background: white; color: #111; }
+  .fh-page { width: 100%; }
+  .fh-brandbar { margin-inline: 0; }
+  .fh-hero { padding: 36px 0; }
+  .fh-document-body { max-width: none; padding: 0; }
+  .fh-footer { margin-inline: 0; }
+  a { color: #111; }
+}
+
+.fh-hero h1 .tx-top { display: block; color: var(--fh-ink); }
+.fh-hero h1 .tx-bottom { display: block; color: #E0AF45; }
+.fh-document-body strong { color: #E0AF45; font-weight: 600; }
+.tx-scroll { overflow-x: auto; margin: 1.6rem 0 2.2rem; }
+.tx-scroll table { margin: 0; min-width: 640px; }
+td.num, th.num { text-align: right; white-space: nowrap; font-family: var(--fh-mono); font-variant-numeric: tabular-nums; }
+td { font-size: .88rem; }
+.tx-who { min-width: 13rem; }
+.tx-donors { min-width: 760px; }
+.tx-why { min-width: 20rem; }
+.tx-flag { color: #E0AF45; }
+.tx-ids { white-space: nowrap; }
+.tx-sub { display: block; margin-top: 4px; color: var(--fh-muted); font: 400 .72rem/1.45 var(--fh-mono); }
+.tx-ids { font-family: var(--fh-mono); font-size: .74rem; overflow-wrap: anywhere; }
+.tx-charts { display: grid; gap: 34px; margin: 2rem 0 1rem; }
+.tx-chart { margin: 0; padding: 22px 22px 14px; border: 1px solid var(--fh-rule); background: var(--fh-panel); }
+.tx-chart figcaption { display: grid; gap: 4px; margin-bottom: 12px; }
+.tx-chart-title { font: 400 1.9rem/1 var(--fh-display); color: var(--fh-ink); }
+.tx-chart-note { font: 400 .74rem/1.5 var(--fh-mono); color: var(--fh-muted); }
+.tx-bars { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.tx-bar-row { display: grid; gap: 4px; }
+.tx-bar-label { font: 400 .9rem/1.3 var(--fh-serif); color: var(--fh-ink); }
+.tx-bar-row.tx-oil .tx-bar-label { font-weight: 700; color: #E0AF45; }
+.tx-bar-track { display: flex; align-items: center; gap: 8px; }
+.tx-bar { display: block; height: 13px; min-width: 2px; border-radius: 2px; background: #675435; flex: none; }
+.tx-bar-row.tx-oil .tx-bar { background: #C9901A; }
+.tx-bar-value { font: 600 .74rem/1 var(--fh-mono); color: var(--fh-muted); white-space: nowrap; }
+details { margin: 0 0 1rem; border-top: 1px solid var(--fh-rule); }
+details > summary { cursor: pointer; padding: 14px 0; font: 600 .82rem/1.4 var(--fh-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--fh-link); }
+.fh-stats .fh-stat-value { color: #E0AF45; }
+
+</style>
+</head>
+<body>
+<article class="fh-page fh-document">
+  <header>
+    <div class="fh-brandbar"><span class="fh-brand">Future Heist</span><span>October 30, 2026</span></div>
+    <div class="fh-hero">
+      <p class="fh-kicker">Campaign finance &middot; Texas</p>
+      <h1><span class="tx-top">OIL MONEY.</span><span class="tx-bottom">TEXAS POWER.</span></h1>
+      <div class="fh-deck"><p>Over their careers, oil and gas has given more money to Greg Abbott, Dan Patrick and Ken Paxton than any other industry. This is the count, and the filings behind every dollar of it.</p></div>
+    </div>
+  </header>
+  <div class="fh-document-body">
+    <div class="fh-stats"><div class="fh-stat"><div class="fh-stat-value">$82.8M</div><div class="fh-stat-caption"><p>Greg Abbott: 16.3% of everything raised, since 2001</p></div></div><div class="fh-stat"><div class="fh-stat-value">$18.8M</div><div class="fh-stat-caption"><p>Dan Patrick: 14.6% of everything raised, since 2008</p></div></div><div class="fh-stat"><div class="fh-stat-value">$10.8M</div><div class="fh-stat-caption"><p>Ken Paxton&#x27;s own campaigns: 13.5% of everything raised, since 2002</p></div></div></div>
+
+    <p><strong>Oil and gas is the largest industry behind all three men.</strong> Oil and gas donors have given Greg Abbott $82.8 million since 2001, Dan Patrick $18.8 million since 2008 and Ken Paxton's own campaigns $10.8 million since 2002. The next-largest industry gave each of them less: securities and investment gave Abbott $48.5 million, real estate gave Patrick $12.0 million, and securities and investment gave Paxton $5.6 million.</p>
+    <p><strong>This election cycle, the pattern holds for Abbott and Patrick.</strong> Oil and gas supplied 16.8% of the $117.6 million Abbott has raised since January 2025, and 17.8% of Patrick's $26.5 million. Paxton's three committees took more from tech, almost all of it one $10 million check from Elon Musk to the super PAC backing his Senate run. Without that gift, oil and gas leads.</p>
+    <p><strong>Every figure on this page comes from the filings.</strong> We counted every itemized contribution in the Texas Ethics Commission's records for each man's campaign committee and, for Paxton's Senate run, the Federal Election Commission's. Our rows match the filed totals on 77 of 77 of Abbott&#x27;s state reports, 66 of 66 of Patrick&#x27;s and 71 of 78 of Paxton&#x27;s, to the cent, and on 20 of 20 of Paxton&#x27;s federal filings. Each oil and gas donor below shows why it counts, and the data files carry the contribution ids to look up.</p>
+
+    <h2 id="careers">Whole careers</h2>
+    <p>Total raised, the oil and gas share, and the next-largest industry. The narrower definition is OpenSecrets' own, which leaves out pipelines, petrochemical makers and fuel distributors. The last column drops every donor whose classification rests on a family tie or a company's line of business that a reader could weigh differently.</p>
+    <div class="tx-scroll"><table><thead><tr><th>Who and period</th><th class="num">Raised</th><th class="num">From oil and gas</th><th class="num">Share</th><th>Next industry</th><th class="num">Next industry gave</th><th class="num">Oil and gas, narrower definition</th><th class="num">Share with judgment calls dropped</th></tr></thead><tbody><tr><td class="tx-who">Greg Abbott<span class="tx-sub">June 2001 to Oct. 24, 2026 (Texans for Greg Abbott)</span></td><td class="num">$507.8M</td><td class="num"><strong>$82.8M</strong></td><td class="num">16.3%</td><td>Securities &amp; Investment</td><td class="num">$48.5M</td><td class="num">$64.9M</td><td class="num">14.0%</td></tr><tr><td class="tx-who">Dan Patrick<span class="tx-sub">2008 to Oct. 24, 2026 (Texans for Dan Patrick)</span></td><td class="num">$129.4M</td><td class="num"><strong>$18.8M</strong></td><td class="num">14.6%</td><td>Real Estate</td><td class="num">$12.0M</td><td class="num">$15.9M</td><td class="num">13.6%</td></tr><tr><td class="tx-who">Ken Paxton, his own committees<span class="tx-sub">2002 to Oct. 2026 (state account 2002-2024; Ken Paxton for Senate and Paxton Victory, 2026 cycle)</span></td><td class="num">$79.8M</td><td class="num"><strong>$10.8M</strong></td><td class="num">13.5%</td><td>Securities &amp; Investment</td><td class="num">$5.6M</td><td class="num">$10.2M</td><td class="num">12.2%</td></tr><tr><td class="tx-who">Ken Paxton, with the super PAC<span class="tx-sub">same as above, plus Lone Star Liberty PAC, 2026 cycle</span></td><td class="num">$109.5M</td><td class="num"><strong>$13.7M</strong></td><td class="num">12.5%</td><td>Tech &amp; Internet</td><td class="num">$12.8M</td><td class="num">$12.9M</td><td class="num">11.2%</td></tr></tbody></table></div>
+
+    <h2 id="cycle">This election cycle</h2>
+    <p>January 1, 2025 through the last reports filed before the election. Paxton's federal committees cover the 2026 cycle.</p>
+    <div class="tx-scroll"><table><thead><tr><th>Who and period</th><th class="num">Raised</th><th class="num">From oil and gas</th><th class="num">Share</th><th>Next industry</th><th class="num">Next industry gave</th><th class="num">Oil and gas, narrower definition</th><th class="num">Share with judgment calls dropped</th></tr></thead><tbody><tr><td class="tx-who">Greg Abbott<span class="tx-sub">Jan. 1, 2025 to Oct. 24, 2026</span></td><td class="num">$117.6M</td><td class="num"><strong>$19.7M</strong></td><td class="num">16.8%</td><td>Securities &amp; Investment</td><td class="num">$11.1M</td><td class="num">$15.0M</td><td class="num">14.1%</td></tr><tr><td class="tx-who">Dan Patrick<span class="tx-sub">Jan. 1, 2025 to Oct. 24, 2026</span></td><td class="num">$26.5M</td><td class="num"><strong>$4.7M</strong></td><td class="num">17.8%</td><td>Real Estate</td><td class="num">$2.8M</td><td class="num">$3.9M</td><td class="num">16.8%</td></tr><tr><td class="tx-who">Ken Paxton, joint committee<span class="tx-sub">2026 cycle (Paxton Victory)</span></td><td class="num">$12.0M</td><td class="num"><strong>$2.9M</strong></td><td class="num">23.9%</td><td>Securities &amp; Investment</td><td class="num">$1.2M</td><td class="num">$2.7M</td><td class="num">19.2%</td></tr><tr><td class="tx-who">Ken Paxton, three committees<span class="tx-sub">2026 cycle (Senate campaign, joint committee, super PAC)</span></td><td class="num">$64.1M</td><td class="num"><strong>$6.3M</strong></td><td class="num">9.8%</td><td>Tech &amp; Internet</td><td class="num">$12.1M</td><td class="num">$5.8M</td><td class="num">8.4%</td></tr></tbody></table></div>
+
+    <h2 id="industries">The industries behind each man</h2>
+    <p>The eight largest industries over each man's career, as a share of everything he raised. Money from donors with no employer listed has no industry and is left out of the bars, though it counts in each total.</p>
+    <div class="tx-charts">
+      <figure class="tx-chart"><figcaption><span class="tx-chart-title">Greg Abbott</span><span class="tx-chart-note">Texans for Greg Abbott, June 2001 to Oct. 24, 2026</span></figcaption><ol class="tx-bars" aria-label="Greg Abbott: industries by share of money raised"><li class="tx-bar-row tx-oil"><span class="tx-bar-label">Oil &amp; Gas</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 1.0000)"></span><span class="tx-bar-value">16.3%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Securities &amp; Investment</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.5862)"></span><span class="tx-bar-value">9.6%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Real Estate</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.4113)"></span><span class="tx-bar-value">6.7%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Retail, Food &amp; Beverage</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.3481)"></span><span class="tx-bar-value">5.7%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Construction &amp; Contractors</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.3302)"></span><span class="tx-bar-value">5.4%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Energy, other</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2069)"></span><span class="tx-bar-value">3.4%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Lawyers / Law Firms</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.1867)"></span><span class="tx-bar-value">3.0%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Tech &amp; Internet</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.1723)"></span><span class="tx-bar-value">2.8%</span></span></li></ol></figure>
+      <figure class="tx-chart"><figcaption><span class="tx-chart-title">Dan Patrick</span><span class="tx-chart-note">Texans for Dan Patrick, 2008 to Oct. 24, 2026</span></figcaption><ol class="tx-bars" aria-label="Dan Patrick: industries by share of money raised"><li class="tx-bar-row tx-oil"><span class="tx-bar-label">Oil &amp; Gas</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 1.0000)"></span><span class="tx-bar-value">14.6%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Real Estate</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.6375)"></span><span class="tx-bar-value">9.3%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Securities &amp; Investment</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.5597)"></span><span class="tx-bar-value">8.1%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Retail, Food &amp; Beverage</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.4902)"></span><span class="tx-bar-value">7.1%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Construction &amp; Contractors</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.3657)"></span><span class="tx-bar-value">5.3%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Car Dealers</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.3324)"></span><span class="tx-bar-value">4.8%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Business Services &amp; Associations</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2648)"></span><span class="tx-bar-value">3.9%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Lawyers / Law Firms</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2625)"></span><span class="tx-bar-value">3.8%</span></span></li></ol></figure>
+      <figure class="tx-chart"><figcaption><span class="tx-chart-title">Ken Paxton</span><span class="tx-chart-note">His state account since 2002, plus his 2026 Senate campaign and joint committee</span></figcaption><ol class="tx-bars" aria-label="Ken Paxton: industries by share of money raised"><li class="tx-bar-row tx-oil"><span class="tx-bar-label">Oil &amp; Gas</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 1.0000)"></span><span class="tx-bar-value">13.5%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Securities &amp; Investment</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.5176)"></span><span class="tx-bar-value">7.0%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Lawyers / Law Firms</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.3192)"></span><span class="tx-bar-value">4.3%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Real Estate</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2873)"></span><span class="tx-bar-value">3.9%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Business Services &amp; Associations</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2860)"></span><span class="tx-bar-value">3.9%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Ideological &amp; Single-Issue Groups</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2830)"></span><span class="tx-bar-value">3.8%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Recreation / Live Entertainment</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.2213)"></span><span class="tx-bar-value">3.0%</span></span></li><li class="tx-bar-row"><span class="tx-bar-label">Retail, Food &amp; Beverage</span><span class="tx-bar-track"><span class="tx-bar" style="width:calc((100% - 4.5em) * 0.1906)"></span><span class="tx-bar-value">2.6%</span></span></li></ol></figure>
+    </div>
+
+    <h2 id="donors">The largest oil and gas donors</h2>
+    <p>The ten largest oil and gas donors to each man, with the reason each counts, how that was decided and sample contribution ids from the filings.</p>
+    <details open><summary>Greg Abbott, whole career</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">ANWAR, S JAVAID<span class="tx-sub">Midland Energy Inc.</span></td><td class="num">$16.1M</td><td class="tx-why">Midland Energy Inc. president (filed employer)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">112</td><td class="tx-ids">150447103<br>150450626<br>150458278</td></tr><tr><td class="num">2</td><td class="tx-who">WARREN, KELCY<span class="tx-sub">Energy Transfer</span></td><td class="num">$4.5M</td><td class="tx-why">Kelcy Warren, Executive Chairman; midstream<span class="tx-sub">Decided by known company or person.</span></td><td class="num">13</td><td class="tx-ids">150473261<br>155538682<br>115455724</td></tr><tr><td class="num">3</td><td class="tx-who">GRAHAM, JAY (Spur Energy Partners)<span class="tx-sub">Spur Energy Partners ; WildHorse Resources</span></td><td class="num">$3.4M</td><td class="tx-why">Spur Energy Partners (filed employer): Permian Northwest Shelf oil and gas producer formed 2019 with KKR; Jay Graham CEO, former WildHorse CEO (Hart Energy, KKR release)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">19</td><td class="tx-ids">150473503<br>155562086<br>108248746</td></tr><tr><td class="num">4</td><td class="tx-who">FOSTER, PAUL<span class="tx-sub">Franklin Mountain Management ; Western Refining Company</span></td><td class="num">$3.3M</td><td class="tx-why">Founder and former chairman of Western Refining (El Paso refiner, sold 2017); Patrick filing lists employer &#x27;Western Refining, Chairman&#x27; in 2025-26; Franklin Mountain Energy (his current firm&#x27;s affiliate) invests in upstream and midstream (Franklin Mountain Investments site via search 2026-10-29).<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">24</td><td class="tx-ids">150473265<br>153322973<br>108196082</td></tr><tr><td class="num">5</td><td class="tx-who">HUNT, RAY (Hunt Consolidated; incl. Nancy Ann Hunt)<span class="tx-sub">Hunt Consolidated Inc. ; Hunt Consolidated, Inc. ; Retired</span></td><td class="num">$2.7M</td><td class="tx-why">Hunt Consolidated / Hunt Oil (filed employer); Nancy Ann Hunt is his spouse, same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">22</td><td class="tx-ids">150467934<br>150467935<br>155553220</td></tr><tr><td class="num">6</td><td class="tx-who">MARTIN, GARY<span class="tx-sub">Falcon Bay Energy, LLC</span></td><td class="num">$2.6M</td><td class="tx-why">Falcon Bay Energy LLC (filed employer, president) is a Texas oil and gas operator (Sutton County wells; Midland office) per texas-drilling.com and shalexp.com<span class="tx-sub">Decided by reporter review.</span></td><td class="num">204</td><td class="tx-ids">149746114<br>150445371<br>150473521</td></tr><tr><td class="num">7</td><td class="tx-who">KINDER, NANCY<span class="tx-sub">Kinder Foundation</span></td><td class="num">$2.3M</td><td class="tx-why">Kinder Foundation (filed employer); wife of Richard Kinder, Kinder Morgan co-founder and executive chairman (midstream); family member<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">14</td><td class="tx-ids">153315584<br>108208408<br>108278451</td></tr><tr><td class="num">8</td><td class="tx-who">HILDEBRAND, JEFFERY (Hilcorp; incl. Melinda Hildebrand)<span class="tx-sub">Hilcorp Energy Company ; US Dept of State</span></td><td class="num">$2.0M</td><td class="tx-why">wife of Jeffery Hildebrand (Hilcorp); files with him; 2019 filing under Self<span class="tx-sub">Decided by reporter review.</span></td><td class="num">17</td><td class="tx-ids">153316359<br>155563403<br>108202557</td></tr><tr><td class="num">9</td><td class="tx-who">BAGGETT, DAVID<span class="tx-sub">Opportune LLP</span></td><td class="num">$1.9M</td><td class="tx-why">Opportune LLP (filed employer), Houston energy consulting firm whose practice is upstream, midstream and downstream oil and gas (firm site; Oil and Gas Investor 2025 names Baggett chairman and managing partner); Patrick filing gives occupation &#x27;Energy Consulting Firm&#x27;. Judgment: industry consultant counted as industry.<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">24</td><td class="tx-ids">150473506<br>153315582<br>108263592</td></tr><tr><td class="num">10</td><td class="tx-who">CAMPBELL, CODY (Double Eagle; incl. Tara Campbell)<span class="tx-sub">Double Eagle Development LLC</span></td><td class="num">$1.5M</td><td class="tx-why">Double Eagle; Cody Campbell files under two Fort Worth zips; Tara Campbell is his spouse<span class="tx-sub">Decided by known company or person.</span></td><td class="num">16</td><td class="tx-ids">150451827<br>150470876<br>153313891</td></tr></tbody></table></div></details><details><summary>Dan Patrick, whole career</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">SCHARBAUER, DOUGLAS (Midland; oil consultant, mineral owner)<span class="tx-sub">Midland Oil ; Midland Oil Operater ; Self ; Self-Employed</span></td><td class="num">$1.5M</td><td class="tx-why">Douglas Scharbauer, Midland; filed occupation Oil Consultant to Patrick; mineral owner (Scharbauer ranch and oil family)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">11</td><td class="tx-ids">152859939<br>155063321<br>119748773</td></tr><tr><td class="num">2</td><td class="tx-who">DUNCAN, JAN (widow of Enterprise Products founder Dan Duncan)<span class="tx-sub">Retired</span></td><td class="num">$905,000</td><td class="tx-why">Jan Duncan, widow of Dan Duncan, founder of Enterprise Products Partners (midstream); family member; filed retired under two spellings<span class="tx-sub">Decided by known company or person.</span></td><td class="num">6</td><td class="tx-ids">151001880<br>129932070<br>140603795</td></tr><tr><td class="num">3</td><td class="tx-who">HUNT, RAY (Hunt Consolidated; incl. Nancy Ann Hunt)<span class="tx-sub">CEO ; Hunt Consolidated  Inc. ; Hunt Consolidated, Inc.</span></td><td class="num">$900,000</td><td class="tx-why">Hunt Consolidated / Hunt Oil (filed employer); Nancy Ann Hunt is his spouse, same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">8</td><td class="tx-ids">155063287<br>114423858<br>115393108</td></tr><tr><td class="num">4</td><td class="tx-who">CAMPBELL, CODY (Double Eagle; incl. Tara Campbell)<span class="tx-sub">Double Eagle ; Double Eagle Development ; Double Eagle Energy Holdings</span></td><td class="num">$845,000</td><td class="tx-why">Double Eagle; Cody Campbell files under two Fort Worth zips; Tara Campbell is his spouse<span class="tx-sub">Decided by known company or person.</span></td><td class="num">13</td><td class="tx-ids">155063469<br>110789411<br>110795390</td></tr><tr><td class="num">5</td><td class="tx-who">STALLINGS, KYLE (Desert Royalty; incl. Jamie Stallings)<span class="tx-sub">Desert Royalty ; Desert Royalty Company, LLC ; Permian Basin Acquisition Fund ; </span></td><td class="num">$816,854</td><td class="tx-why">Desert Royalty / Permian Basin Acquisition Fund (filed employers); spouse files from the same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">27</td><td class="tx-ids">152860301<br>155063329<br>110791801</td></tr><tr><td class="num">6</td><td class="tx-who">DUNN, TIMOTHY<span class="tx-sub">Crownquest Operating, L.L.C.</span></td><td class="num">$557,204</td><td class="tx-why">CrownQuest; Tim Dunn<span class="tx-sub">Decided by known company or person.</span></td><td class="num">5</td><td class="tx-ids">152856466<br>112669987<br>115393436</td></tr><tr><td class="num">7</td><td class="tx-who">FOSTER, PAUL<span class="tx-sub">Western Refining ; Western Refining Company</span></td><td class="num">$552,500</td><td class="tx-why">Founder and former chairman of Western Refining (El Paso refiner, sold 2017); Patrick filing lists employer &#x27;Western Refining, Chairman&#x27; in 2025-26; Franklin Mountain Energy (his current firm&#x27;s affiliate) invests in upstream and midstream (Franklin Mountain Investments site via search 2026-10-29).<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">11</td><td class="tx-ids">155063470<br>110791756<br>113006186</td></tr><tr><td class="num">8</td><td class="tx-who">ANWAR, S JAVAID<span class="tx-sub">Midland Energy Inc ; Midland Energy, Inc.</span></td><td class="num">$545,000</td><td class="tx-why">Midland Energy Inc. president (filed employer)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">7</td><td class="tx-ids">126964389<br>129932060<br>138456860</td></tr><tr><td class="num">9</td><td class="tx-who">WARREN, KELCY<span class="tx-sub">Energy Transfer ; Energy Transfer Partners</span></td><td class="num">$500,000</td><td class="tx-why">Kelcy Warren, Executive Chairman; midstream<span class="tx-sub">Decided by known company or person.</span></td><td class="num">5</td><td class="tx-ids">114703180<br>116216586<br>118225815</td></tr><tr><td class="num">10</td><td class="tx-who">HILDEBRAND, JEFFERY (Hilcorp; incl. Melinda Hildebrand)<span class="tx-sub">Hilcorp ; Hilcorp Energy Company ; Privateer Capital Management</span></td><td class="num">$450,000</td><td class="tx-why">Hilcorp Energy (filed employer); Melinda Hildebrand (ambassador) is his spouse, same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">5</td><td class="tx-ids">152857502<br>114467487<br>136881478</td></tr></tbody></table></div></details><details><summary>Ken Paxton, state account, whole career</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">DUNN, TIMOTHY<span class="tx-sub">CrownQuest Operating, LLC ; Crownquest Operating Llc</span></td><td class="num">$820,000</td><td class="tx-why">CrownQuest; Tim Dunn<span class="tx-sub">Decided by known company or person.</span></td><td class="num">9</td><td class="tx-ids">108383142<br>113242733<br>113849790</td></tr><tr><td class="num">2</td><td class="tx-who">WILKS, FARRIS<span class="tx-sub">Wilks Brothers ; Wilks Brothers LLC</span></td><td class="num">$675,000</td><td class="tx-why">Dan and Farris Wilks; shale fortune<span class="tx-sub">Decided by known company or person.</span></td><td class="num">7</td><td class="tx-ids">108386808<br>108389355<br>113856745</td></tr><tr><td class="num">3</td><td class="tx-who">STALLINGS, KYLE (Desert Royalty; incl. Jamie Stallings)<span class="tx-sub">Desert Royalty Company ; Desert Royalty Company LLC ; Retired ; Self ; Self Empl</span></td><td class="num">$507,500</td><td class="tx-why">Desert Royalty / Permian Basin Acquisition Fund (filed employers); spouse files from the same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">18</td><td class="tx-ids">108387521<br>108389586<br>108391547</td></tr><tr><td class="num">4</td><td class="tx-who">WILKS, DAN<span class="tx-sub">Wilks Brothers LLC</span></td><td class="num">$351,000</td><td class="tx-why">Dan and Farris Wilks; shale fortune<span class="tx-sub">Decided by known company or person.</span></td><td class="num">4</td><td class="tx-ids">108389337<br>115358209<br>115618801</td></tr><tr><td class="num">5</td><td class="tx-who">SCHARBAUER, DOUGLAS (Midland; oil consultant, mineral owner)<span class="tx-sub">Oil Cattle and Investment ; self</span></td><td class="num">$350,000</td><td class="tx-why">Douglas Scharbauer, Midland; filed occupation Oil Consultant to Patrick; mineral owner (Scharbauer ranch and oil family)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">2</td><td class="tx-ids">119184049<br>125433587</td></tr><tr><td class="num">6</td><td class="tx-who">ANWAR, JAVAID<span class="tx-sub">Midland Energy ; Midland Energy Inc Petroplex Energy</span></td><td class="num">$300,000</td><td class="tx-why">S. Javaid Anwar, Midland Energy Inc CEO<span class="tx-sub">Decided by known company or person.</span></td><td class="num">4</td><td class="tx-ids">128777910<br>133889218<br>136136638</td></tr><tr><td class="num">7</td><td class="tx-who">ANWAR, JAVAID<span class="tx-sub">Midland Energy, Inc.</span></td><td class="num">$295,000</td><td class="tx-why">S. Javaid Anwar, Midland Energy Inc CEO<span class="tx-sub">Decided by known company or person.</span></td><td class="num">7</td><td class="tx-ids">115358001<br>117176687<br>119181030</td></tr><tr><td class="num">8</td><td class="tx-who">HOLMES, WILLIAM<span class="tx-sub">Mid States Operating Company ; President ; Self ; Self-Employed ; oil &amp; gas ; se</span></td><td class="num">$259,741</td><td class="tx-why">filed employer or occupation names &#x27;oil&#x27;<span class="tx-sub">Decided by filed employer.</span></td><td class="num">14</td><td class="tx-ids">108391539<br>108391541<br>113242746</td></tr><tr><td class="num">9</td><td class="tx-who">SCHARBAUER, DOUG<span class="tx-sub">Self-Employed</span></td><td class="num">$250,000</td><td class="tx-why">Douglas Scharbauer under a short first name<span class="tx-sub">Decided by reporter review.</span></td><td class="num">1</td><td class="tx-ids">140208381</td></tr><tr><td class="num">10</td><td class="tx-who">THRC HOLDINGS LP</td><td class="num">$250,000</td><td class="tx-why">Wilks family holding company, Cisco 76437: general partner THRC Management LLC managed by Dan Wilks; 10% owner of ProFrac, Flotek and Solaris, oilfield services (LEI record; corporationwiki; gurufocus)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">2</td><td class="tx-ids">130042821<br>138833440</td></tr></tbody></table></div></details><details><summary>Greg Abbott, this election cycle</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">ANWAR, S JAVAID<span class="tx-sub">Midland Energy Inc.</span></td><td class="num">$4.4M</td><td class="tx-why">Midland Energy Inc. president (filed employer)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">20</td><td class="tx-ids">150447103<br>150450626<br>150458278</td></tr><tr><td class="num">2</td><td class="tx-who">WARREN, KELCY<span class="tx-sub">Energy Transfer</span></td><td class="num">$1.5M</td><td class="tx-why">Kelcy Warren, Executive Chairman; midstream<span class="tx-sub">Decided by known company or person.</span></td><td class="num">4</td><td class="tx-ids">150473261<br>155538682<br>146069463</td></tr><tr><td class="num">3</td><td class="tx-who">CAMPBELL, CODY (Double Eagle; incl. Tara Campbell)<span class="tx-sub">Double Eagle Development LLC</span></td><td class="num">$840,000</td><td class="tx-why">Double Eagle; Cody Campbell files under two Fort Worth zips; Tara Campbell is his spouse<span class="tx-sub">Decided by known company or person.</span></td><td class="num">7</td><td class="tx-ids">150451827<br>150470876<br>153313891</td></tr><tr><td class="num">4</td><td class="tx-who">BAGGETT, DAVID<span class="tx-sub">Opportune LLP</span></td><td class="num">$763,258</td><td class="tx-why">Opportune LLP (filed employer), Houston energy consulting firm whose practice is upstream, midstream and downstream oil and gas (firm site; Oil and Gas Investor 2025 names Baggett chairman and managing partner); Patrick filing gives occupation &#x27;Energy Consulting Firm&#x27;. Judgment: industry consultant counted as industry.<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">4</td><td class="tx-ids">150473506<br>153315582<br>146072502</td></tr><tr><td class="num">5</td><td class="tx-who">DUNCAN, JAN (widow of Enterprise Products founder Dan Duncan)<span class="tx-sub">Retired</span></td><td class="num">$750,000</td><td class="tx-why">Jan Duncan, widow of Dan Duncan, founder of Enterprise Products Partners (midstream); family member; filed retired under two spellings<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">150446956<br>153315585<br>146068866</td></tr><tr><td class="num">6</td><td class="tx-who">FOSTER, PAUL<span class="tx-sub">Franklin Mountain Management</span></td><td class="num">$750,000</td><td class="tx-why">Founder and former chairman of Western Refining (El Paso refiner, sold 2017); Patrick filing lists employer &#x27;Western Refining, Chairman&#x27; in 2025-26; Franklin Mountain Energy (his current firm&#x27;s affiliate) invests in upstream and midstream (Franklin Mountain Investments site via search 2026-10-29).<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">3</td><td class="tx-ids">150473265<br>153322973<br>146068876</td></tr><tr><td class="num">7</td><td class="tx-who">HILDEBRAND, JEFFERY (Hilcorp; incl. Melinda Hildebrand)<span class="tx-sub">Hilcorp Energy Company ; US Dept of State</span></td><td class="num">$750,000</td><td class="tx-why">Hilcorp Energy (filed employer); Melinda Hildebrand (ambassador) is his spouse, same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">153316359<br>155563403<br>146071585</td></tr><tr><td class="num">8</td><td class="tx-who">HUNT, RAY (Hunt Consolidated; incl. Nancy Ann Hunt)<span class="tx-sub">Hunt Consolidated, Inc. ; Retired</span></td><td class="num">$750,000</td><td class="tx-why">Hunt Consolidated / Hunt Oil (filed employer); Nancy Ann Hunt is his spouse, same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">5</td><td class="tx-ids">150467934<br>150467935<br>155553220</td></tr><tr><td class="num">9</td><td class="tx-who">SELLERS, JOHN<span class="tx-sub">Double Eagle Development</span></td><td class="num">$750,000</td><td class="tx-why">Campbell and Sellers (Double Eagle, Permian producer)<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">150473243<br>155553216<br>146069444</td></tr><tr><td class="num">10</td><td class="tx-who">GRAHAM, JAY (Spur Energy Partners)<span class="tx-sub">Spur Energy Partners</span></td><td class="num">$725,000</td><td class="tx-why">Spur Energy Partners (filed employer): Permian Northwest Shelf oil and gas producer formed 2019 with KKR; Jay Graham CEO, former WildHorse CEO (Hart Energy, KKR release)<span class="tx-sub">Decided by reporter review.</span></td><td class="num">3</td><td class="tx-ids">150473503<br>155562086<br>146071508</td></tr></tbody></table></div></details><details><summary>Dan Patrick, this election cycle</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">CAMPBELL, CODY (Double Eagle; incl. Tara Campbell)<span class="tx-sub">Double Eagle Development ; Double Eagle Energy Holdings</span></td><td class="num">$450,000</td><td class="tx-why">Double Eagle; Cody Campbell files under two Fort Worth zips; Tara Campbell is his spouse<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">155063469<br>146088526<br>148873852</td></tr><tr><td class="num">2</td><td class="tx-who">DUNCAN, JAN (widow of Enterprise Products founder Dan Duncan)<span class="tx-sub">Retired</span></td><td class="num">$400,000</td><td class="tx-why">Jan Duncan, widow of Dan Duncan, founder of Enterprise Products Partners (midstream); family member; filed retired under two spellings<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">151001880<br>146088534</td></tr><tr><td class="num">3</td><td class="tx-who">SCHARBAUER, DOUGLAS (Midland; oil consultant, mineral owner)<span class="tx-sub">Self ; Self-Employed</span></td><td class="num">$350,000</td><td class="tx-why">filed occupation &#x27;Oil Consultant&#x27; to Patrick; Scharbauer family mineral rights; P.O. Box 2888 Midland on every committee<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">152859939<br>155063321<br>146088566</td></tr><tr><td class="num">4</td><td class="tx-who">TEXANS UNITED FOR A CONSERVATIVE MAJORITY PAC</td><td class="num">$350,000</td><td class="tx-why">Dunn PAC (TUCM); Tackett 2026-10-28<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">146502011</td></tr><tr><td class="num">5</td><td class="tx-who">SELLERS, JOHN<span class="tx-sub">Double Eage Development ; Double Eagle Development</span></td><td class="num">$325,000</td><td class="tx-why">Campbell and Sellers (Double Eagle, Permian producer)<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">155063474<br>146088570</td></tr><tr><td class="num">6</td><td class="tx-who">STALLINGS, KYLE (Desert Royalty; incl. Jamie Stallings)<span class="tx-sub">Desert Royalty ; Desert Royalty Company, LLC</span></td><td class="num">$300,000</td><td class="tx-why">Desert Royalty / Permian Basin Acquisition Fund (filed employers); spouse files from the same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">152860301<br>155063329<br>146088574</td></tr><tr><td class="num">7</td><td class="tx-who">DUNN, LUKE<span class="tx-sub">Crownquest Operating, L.L.C.</span></td><td class="num">$250,000</td><td class="tx-why">CrownQuest; Tim Dunn<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">152856465</td></tr><tr><td class="num">8</td><td class="tx-who">DUNN, TIMOTHY<span class="tx-sub">Crownquest Operating, L.L.C.</span></td><td class="num">$250,000</td><td class="tx-why">CrownQuest; Tim Dunn<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">152856466</td></tr><tr><td class="num">9</td><td class="tx-who">ARNOLD, GREG<span class="tx-sub">The Arnold Companies</span></td><td class="num">$200,000</td><td class="tx-why">Saul&#x27;s ruling 2026-10-29: petrochemicals, fuel wholesale/distribution and fuel hauling are oil industry;. The Arnold Companies (filed employer), Texarkana: fuel distribution and truck stops (Truman Arnold Companies); fuel distribution not counted<span class="tx-sub">Decided by reporter review.</span></td><td class="num">2</td><td class="tx-ids">152855123<br>146481927</td></tr><tr><td class="num">10</td><td class="tx-who">HILDEBRAND, JEFFERY (Hilcorp; incl. Melinda Hildebrand)<span class="tx-sub">Hilcorp Energy Company ; Privateer Capital Management</span></td><td class="num">$200,000</td><td class="tx-why">Hilcorp Energy (filed employer); Melinda Hildebrand (ambassador) is his spouse, same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">152857502<br>146481941</td></tr></tbody></table></div></details><details><summary>Ken Paxton, joint committee, this election cycle</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">GORDY, RUSSELL (SG Interests; incl. Glenda Gordy)<span class="tx-sub">RETIRED ; S.G. BUSINESS SERVICES, L.T.D.</span></td><td class="num">$350,000</td><td class="tx-why">Founder of SG Interests (oil and gas E&amp;P, est. 1989), president of Gordy Oil Co. and Gordy Gas Corp. (SHSU alumni bio); Capital &amp; Main 2026-10-22 calls him oil and gas and real estate. Filed employer S.G. Business Services.<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">4</td><td class="tx-ids">SA11AI.SA11A.30671010<br>SA11AI.SA11A.30671011<br>SA11AI.SA11A.31251798</td></tr><tr><td class="num">2</td><td class="tx-who">MCDONALD, JOHNNY (Lubbock oil producer; incl. SSC Inc, Baloney Feathers Ltd, Two Toads Holdings, spouse Timmie)<span class="tx-sub">HOMEMAKER ; SELF-EMPLOYED</span></td><td class="num">$300,000</td><td class="tx-why">Johnny McDonald filed occupation OIL PRODUCER to Paxton Victory; SSC Inc, Baloney Feathers Ltd, Two Toads Holdings and &#x27;Charlene McDonald, Johnny&#x27; all file from his P.O. Box 1586, Lubbock 79408 (FEC street field)<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">SA11AI.SA11A.30705171<br>SA11AI.SA11A.31148919<br>SA11AI.SA11A.31148918</td></tr><tr><td class="num">3</td><td class="tx-who">CAMPBELL, CODY (Double Eagle; incl. Tara Campbell)<span class="tx-sub">DOUBLE EAGLE ENERGY ; HOMEMAKER</span></td><td class="num">$299,300</td><td class="tx-why">Double Eagle; Cody Campbell files under two Fort Worth zips; Tara Campbell is his spouse<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.30605036<br>SA11AI.SA11A.31130232</td></tr><tr><td class="num">4</td><td class="tx-who">SCHARBAUER, DOUGLAS (Midland; oil consultant, mineral owner)<span class="tx-sub">SELF-EMPLOYED</span></td><td class="num">$274,300</td><td class="tx-why">filed occupation &#x27;Oil Consultant&#x27; to Patrick; Scharbauer family mineral rights; P.O. Box 2888 Midland on every committee<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.30627655</td></tr><tr><td class="num">5</td><td class="tx-who">SELLERS, JOHN<span class="tx-sub">DOUBLE EAGLE ENERGY</span></td><td class="num">$274,300</td><td class="tx-why">Campbell and Sellers (Double Eagle, Permian producer)<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.30691791</td></tr><tr><td class="num">6</td><td class="tx-who">WILKS, FARRIS<span class="tx-sub">WILKS BROTHERS, LLC</span></td><td class="num">$250,000</td><td class="tx-why">Dan and Farris Wilks; shale fortune<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.30924440</td></tr><tr><td class="num">7</td><td class="tx-who">BISHOP, GEORGE<span class="tx-sub">GEOSOUTHERN ENERGY</span></td><td class="num">$200,000</td><td class="tx-why">Molleston (GeoSouthern); GeoSouthern Energy, producer<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.31210891</td></tr><tr><td class="num">8</td><td class="tx-who">PENLAND, JOE<span class="tx-sub">QUALITY MAT COMPANY</span></td><td class="num">$108,500</td><td class="tx-why">Quality Mat Company (filed employer), Beaumont: maker of rig mats and access mats for oil and gas drilling sites; oilfield supplier<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.30787508<br>SA11AI.SA11A.30989589</td></tr><tr><td class="num">9</td><td class="tx-who">COX, EDWIN<span class="tx-sub">SELF-EMPLOYED</span></td><td class="num">$100,000</td><td class="tx-why">filed self-employed investor, Athens TX; the Dallas Cox family fortune is oil (Edwin L. Cox Co., Cox Oil &amp; Gas; grandson Bradley Cox chairs Cox Oil Co.) per Dallas Morning News 2020. Identity as a family member is inferred from name and region<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.30973643</td></tr><tr><td class="num">10</td><td class="tx-who">HARRISON, LAURIE<span class="tx-sub">ROSEWOOD CORPORATION</span></td><td class="num">$100,000</td><td class="tx-why">Rosewood Corporation (filed employer); &#x27;Oil &amp; Gas/Executive Director&#x27; on the Abbott filing<span class="tx-sub">Decided by reporter review.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.30661926</td></tr></tbody></table></div></details><details><summary>Ken Paxton, super PAC, this election cycle</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">SCHARBAUER, DOUGLAS (Midland; oil consultant, mineral owner)<span class="tx-sub">MIDLAND CHAMBER OF COMMERCE</span></td><td class="num">$1.2M</td><td class="tx-why">filed occupation &#x27;Oil Consultant&#x27; to Patrick; Scharbauer family mineral rights; P.O. Box 2888 Midland on every committee<span class="tx-sub">Decided by known company or person.</span></td><td class="num">6</td><td class="tx-ids">SA11AI.4364<br>SA11AI.4436<br>SA11AI.4592</td></tr><tr><td class="num">2</td><td class="tx-who">MCDONALD, JOHNNY (Lubbock oil producer; incl. SSC Inc, Baloney Feathers Ltd, Two Toads Holdings, spouse Timmie)</td><td class="num">$510,000</td><td class="tx-why">Johnny McDonald filed occupation OIL PRODUCER to Paxton Victory; SSC Inc, Baloney Feathers Ltd, Two Toads Holdings and &#x27;Charlene McDonald, Johnny&#x27; all file from his P.O. Box 1586, Lubbock 79408 (FEC street field)<span class="tx-sub">Decided by known company or person.</span></td><td class="num">5</td><td class="tx-ids">SA11AI.4397<br>SA11AI.4565<br>SA11AI.4563</td></tr><tr><td class="num">3</td><td class="tx-who">GORDY, RUSSELL (SG Interests; incl. Glenda Gordy)<span class="tx-sub">S.G. Business Services L.T.D.</span></td><td class="num">$250,000</td><td class="tx-why">Founder of SG Interests (oil and gas E&amp;P, est. 1989), president of Gordy Oil Co. and Gordy Gas Corp. (SHSU alumni bio); Capital &amp; Main 2026-10-22 calls him oil and gas and real estate. Filed employer S.G. Business Services.<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.5008</td></tr><tr><td class="num">4</td><td class="tx-who">CHEVRON EMPLOYEES POLITICAL ACTION COMMITTEE CHEVRON CORPORATION</td><td class="num">$200,000</td><td class="tx-why">producer<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11C.4919</td></tr><tr><td class="num">5</td><td class="tx-who">HOLMES, WILLIAM<span class="tx-sub">SELF-EMPLOYED</span></td><td class="num">$175,000</td><td class="tx-why">filed employer or occupation names &#x27;OIL&#x27;<span class="tx-sub">Decided by filed employer.</span></td><td class="num">4</td><td class="tx-ids">SA11AI.4438<br>SA11AI.4794<br>SA11AI.5011</td></tr><tr><td class="num">6</td><td class="tx-who">MOLLESTON, MARGARET<span class="tx-sub">GeoSouthern Energy GP, LLC</span></td><td class="num">$100,000</td><td class="tx-why">Molleston (GeoSouthern); GeoSouthern Energy, producer<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.4970</td></tr><tr><td class="num">7</td><td class="tx-who">STALLINGS, KYLE (Desert Royalty; incl. Jamie Stallings)<span class="tx-sub">INDEPENDENT OIL AND GAS</span></td><td class="num">$100,000</td><td class="tx-why">Desert Royalty / Permian Basin Acquisition Fund (filed employers); spouse files from the same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.4444<br>SA11AI.4673</td></tr><tr><td class="num">8</td><td class="tx-who">KENT, WILLIAM B<span class="tx-sub">The Kent Companies</span></td><td class="num">$85,000</td><td class="tx-why">Saul&#x27;s ruling 2026-10-29: petrochemicals, fuel wholesale/distribution and fuel hauling are oil industry;. The Kent Companies (filed employer), Midland: Kent Kwik convenience stores and fuel distribution; retail fuel not counted<span class="tx-sub">Decided by reporter review.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.4877<br>SA11AI.5002</td></tr><tr><td class="num">9</td><td class="tx-who">SAULSBURY, CHARLES (Saulsbury Industries)<span class="tx-sub">RETIRED ; Saulsbury Industries</span></td><td class="num">$60,000</td><td class="tx-why">Saulsbury Industries (filed employer), Odessa midstream EPC contractor<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.4389<br>SA11AI.4431</td></tr><tr><td class="num">10</td><td class="tx-who">DELEK US ENERGY, INC</td><td class="num">$35,000</td><td class="tx-why">refiner<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">SA11C.4924<br>SA11C.4923</td></tr></tbody></table></div></details><details><summary>Ken Paxton, Senate campaign, this election cycle</summary><div class="tx-scroll"><table class="tx-donors"><thead><tr><th class="num">#</th><th>Donor and filed employer</th><th class="num">Gave</th><th>Why oil and gas</th><th class="num">Gifts</th><th>Sample ids</th></tr></thead><tbody><tr><td class="num">1</td><td class="tx-who">BURCIAGA, GILBERT<span class="tx-sub">ARM ENERGY LLC</span></td><td class="num">$16,318</td><td class="tx-why">ARM Energy; &#x27;Oil &amp; Gas&#x27; on the Abbott filing<span class="tx-sub">Decided by reporter review.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.16510<br>SA12.SA.156230.6.1006</td></tr><tr><td class="num">2</td><td class="tx-who">NEWKUMET, TRAVIS<span class="tx-sub">REGIONS PERMIAN LLC</span></td><td class="num">$16,318</td><td class="tx-why">filed employer or occupation names &#x27;PERMIAN&#x27;<span class="tx-sub">Decided by filed employer.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.29617<br>SA12.SA.103398.6.1006</td></tr><tr><td class="num">3</td><td class="tx-who">NEWKUMET, WAYNE<span class="tx-sub">RETIRED</span></td><td class="num">$16,318</td><td class="tx-why">retired, Midland; Travis Newkumet (Regions Permian LLC CEO) files from the same zip in the same JFC transfer; family member, weak basis<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.29616<br>SA12.SA.92626.6.1006</td></tr><tr><td class="num">4</td><td class="tx-who">THOMAS, CLIFTON<span class="tx-sub">C. L. THOMAS, INC.</span></td><td class="num">$15,000</td><td class="tx-why">Saul&#x27;s ruling 2026-10-29: petrochemicals, fuel wholesale/distribution and fuel hauling are oil industry;. C. L. Thomas Inc. (filed employer): petroleum products distributor<span class="tx-sub">Decided by reporter review.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.119606<br>SA11AI.SA11A.268784</td></tr><tr><td class="num">5</td><td class="tx-who">CAMPBELL, CODY (Double Eagle; incl. Tara Campbell)<span class="tx-sub">DOUBLE EAGLE DEVELOPMENT ; DOUBLE EAGLE ENERGY ; HOMEMAKER</span></td><td class="num">$14,035</td><td class="tx-why">Double Eagle; Cody Campbell files under two Fort Worth zips; Tara Campbell is his spouse<span class="tx-sub">Decided by known company or person.</span></td><td class="num">3</td><td class="tx-ids">SA11AI.SA11A.16161<br>SA11AI.SA11A.16160<br>SA12.90845</td></tr><tr><td class="num">6</td><td class="tx-who">GORDY, RUSSELL (SG Interests; incl. Glenda Gordy)<span class="tx-sub">S.G. BUSINESS SERVICES, L.T.D.</span></td><td class="num">$14,000</td><td class="tx-why">Founder of SG Interests (oil and gas E&amp;P, est. 1989), president of Gordy Oil Co. and Gordy Gas Corp. (SHSU alumni bio); Capital &amp; Main 2026-10-22 calls him oil and gas and real estate. Filed employer S.G. Business Services.<span class="tx-sub tx-flag">Decided by reporter review. Judgment call.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.36848</td></tr><tr><td class="num">7</td><td class="tx-who">MCDONALD, JOHNNY (Lubbock oil producer; incl. SSC Inc, Baloney Feathers Ltd, Two Toads Holdings, spouse Timmie)<span class="tx-sub">SELF-EMPLOYED</span></td><td class="num">$14,000</td><td class="tx-why">Johnny McDonald filed occupation OIL PRODUCER to Paxton Victory; SSC Inc, Baloney Feathers Ltd, Two Toads Holdings and &#x27;Charlene McDonald, Johnny&#x27; all file from his P.O. Box 1586, Lubbock 79408 (FEC street field)<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.26494</td></tr><tr><td class="num">8</td><td class="tx-who">SAULSBURY, CHARLES (Saulsbury Industries)<span class="tx-sub">SAULSBURY ; SAULSBURY INDUSTRIES</span></td><td class="num">$14,000</td><td class="tx-why">Saulsbury Industries (filed employer), Odessa midstream EPC contractor<span class="tx-sub">Decided by known company or person.</span></td><td class="num">4</td><td class="tx-ids">SA11AI.SA11A.17893<br>SA11AI.SA11A.17900<br>SA11AI.SA11A.18242</td></tr><tr><td class="num">9</td><td class="tx-who">SPARKS, DON (Discovery Operating; incl. Gwyn and Christopher Sparks)<span class="tx-sub">DISCOVERY OPERATING, INC.</span></td><td class="num">$14,000</td><td class="tx-why">Discovery Operating (filed employer), Midland oil and gas operator; household files from one zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">1</td><td class="tx-ids">SA11AI.SA11A.12600</td></tr><tr><td class="num">10</td><td class="tx-who">STALLINGS, KYLE (Desert Royalty; incl. Jamie Stallings)<span class="tx-sub">HOMEMAKER ; SELF-EMPLOYED</span></td><td class="num">$14,000</td><td class="tx-why">Desert Royalty / Permian Basin Acquisition Fund (filed employers); spouse files from the same zip<span class="tx-sub">Decided by known company or person.</span></td><td class="num">2</td><td class="tx-ids">SA11AI.SA11A.16163<br>SA11AI.SA11A.16162</td></tr></tbody></table></div></details>
+
+    <h2 id="method">How this was counted</h2>
+    <div class="fh-method-note">
+      <p class="fh-method-note-label">Method</p>
+      <p><strong>What counts as oil and gas.</strong> Producers, oilfield service companies, royalty and mineral owners, refiners, pipelines, petrochemical makers, fuel wholesalers and haulers, their trade groups and political committees, and the families and investment vehicles that hold oil fortunes. Retail convenience stores are not counted. Utilities, power generators and diversified fortunes with an oil arm are kept apart as other energy.</p>
+      <p><strong>How each donor was classified.</strong> Three passes, kept separate in the data: words in the filed employer and occupation, a list of known oil and gas companies, executives and families, and a review of the largest donors, each with a written reason. Reviews ran from the largest donor down.</p>
+      <p><strong>Which money is counted.</strong> Every itemized contribution to each man's main campaign committee, including in-kind gifts, net of superseded reports. For Paxton, his state candidate account and, in 2026, his Senate campaign and joint fundraising committee; the tables also show a version that adds the super PAC backing him. Transfers between a man's own committees are not counted twice. Abbott's judicial campaigns of the 1990s and his officeholder account are not included.</p>
+      <p><strong>Other industries.</strong> Assigned from the filed employer or, for the largest donors, by review, using OpenSecrets' categories. Committees that pass money along are counted as committees, not traced to their own donors.</p>
+    </div>
+
+    <h2 id="check">Check it yourself</h2>
+    <p>Each file below is a plain spreadsheet. To check a total, keep the oil and gas rows for one committee in the contributions file and add up the amounts. To check one gift, search the filer id on the Texas Ethics Commission site, open the report and find the contribution id.</p>
+    <ul><li><a href="data/findings.csv"><code>findings.csv</code></a> (2 KB). Headline totals, shares and next industry, whole careers and this cycle.</li><li><a href="data/industries.csv"><code>industries.csv</code></a> (8 KB). The eight largest industries giving to each man.</li><li><a href="data/oil_donors.csv"><code>oil_donors.csv</code></a> (23 KB). The largest oil and gas donors, with the reason each counts.</li><li><a href="data/sources.csv"><code>sources.csv</code></a> (2 KB). Filings and references used.</li><li><a href="data/sensitivity.csv"><code>sensitivity.csv</code></a> (1 KB). Each share with every judgment call dropped.</li><li><a href="data/report_check_tec.csv"><code>report_check_tec.csv</code></a> (37 KB). Each state report: its filed total against our rows.</li><li><a href="data/report_check_fec.csv"><code>report_check_fec.csv</code></a> (1 KB). Each of Paxton&#x27;s federal filings: its summary line against our rows.</li><li><a href="data/oil_and_energy_contributions.csv"><code>oil_and_energy_contributions.csv</code></a> (2.5 MB). Every filed contribution from an oil and gas or other-energy donor.</li></ul>
+    <p>The full fact-check package, with every donor to every committee, the rulings behind each classification, the code and instructions for rebuilding it all from the public filings, is at <a href="https://github.com/saulbanov/texas-oil-money-data">github.com/saulbanov/texas-oil-money-data</a>.</p>
+    <p><strong>Using this data.</strong> Federal law bars using the names of individual contributors taken from FEC reports to solicit contributions or for any commercial purpose. Use these files for reporting, research and checking. They carry no street addresses or phone numbers. Federal committees may plant up to ten fictitious names in their reports to catch misuse, so a federal row could be a decoy. Data and text are licensed CC BY-NC-SA 4.0, the same terms OpenSecrets uses; credit Saul Elbein, Future Heist. Code is MIT-licensed.</p>
+
+    <h2 id="sources">Sources</h2>
+    <div class="tx-scroll"><table><thead><tr><th>Source</th><th>What it supplies</th><th>Where</th><th>Identifier</th></tr></thead><tbody><tr><td>Texas Ethics Commission campaign finance bulk export (TEC_CF_CSV.zip)</td><td>every itemized contribution to Texans for Greg Abbott (filer 00051153), Texans for Dan Patrick (00064090) and Ken Paxton (00051407), with contributor name, employer, occupation, date and amount</td><td class="tx-ids"><a href="https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip">https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip</a></td><td class="tx-ids">downloaded 2026-10-29; zip sha256 3d4fb840ab2ffe8af07a89152853a6c9bf9d9caf24494239719a12928ed6d578</td></tr><tr><td>Texas Ethics Commission campaign finance search</td><td>the filer ids above and each report, to check any row by its contribution id</td><td class="tx-ids"><a href="https://www.ethics.state.tx.us/search/cf/">https://www.ethics.state.tx.us/search/cf/</a></td><td class="tx-ids">filers 00051153, 00064090, 00051407</td></tr><tr><td>FEC: Ken Paxton for Senate</td><td>2026-cycle receipts and itemized contributions</td><td class="tx-ids"><a href="https://www.fec.gov/data/committee/C00901918/?cycle=2026">https://www.fec.gov/data/committee/C00901918/?cycle=2026</a></td><td class="tx-ids">C00901918; total receipts 22319359.05 through 2026-10-14</td></tr><tr><td>FEC: Paxton Victory (joint fundraising committee)</td><td>2026-cycle receipts and the donors behind its transfers</td><td class="tx-ids"><a href="https://www.fec.gov/data/committee/C00952218/?cycle=2026">https://www.fec.gov/data/committee/C00952218/?cycle=2026</a></td><td class="tx-ids">C00952218; total receipts 12047495.63</td></tr><tr><td>FEC: Lone Star Liberty PAC (super PAC backing Paxton)</td><td>2026-cycle receipts and itemized contributions</td><td class="tx-ids"><a href="https://www.fec.gov/data/committee/C00901223/?cycle=2026">https://www.fec.gov/data/committee/C00901223/?cycle=2026</a></td><td class="tx-ids">C00901223; total receipts 29696321.83</td></tr><tr><td>OpenSecrets, Industries by Sector</td><td>the sector and industry labels the industry ranking uses</td><td class="tx-ids"><a href="https://www.opensecrets.org/industries/slist">https://www.opensecrets.org/industries/slist</a></td><td class="tx-ids">read 2026-10-30; saved copy sha256 f6107f470c08469ba050fae77a20abe44e418de33b5b748710cda657ce7ef2f7</td></tr></tbody></table></div>
+  </div>
+  <footer class="fh-footer"><span>Future Heist &middot; Analysis by Saul Elbein</span><span>Built 2026-10-30 from source commit 3098f3e</span></footer>
+</article>
+</body>
+</html>

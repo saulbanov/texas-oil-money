@@ -1,0 +1,7 @@
+id,source,supplies,where,identifier
+tec-bulk,Texas Ethics Commission campaign finance bulk export (TEC_CF_CSV.zip),"every itemized contribution to Texans for Greg Abbott (filer 00051153), Texans for Dan Patrick (00064090) and Ken Paxton (00051407), with contributor name, employer, occupation, date and amount",https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip,downloaded 2026-10-29; zip sha256 3d4fb840ab2ffe8af07a89152853a6c9bf9d9caf24494239719a12928ed6d578
+tec-search,Texas Ethics Commission campaign finance search,"the filer ids above and each report, to check any row by its contribution id",https://www.ethics.state.tx.us/search/cf/,"filers 00051153, 00064090, 00051407"
+fec-senate,FEC: Ken Paxton for Senate,2026-cycle receipts and itemized contributions,https://www.fec.gov/data/committee/C00901918/?cycle=2026,C00901918; total receipts 22319359.05 through 2026-10-14
+fec-victory,FEC: Paxton Victory (joint fundraising committee),2026-cycle receipts and the donors behind its transfers,https://www.fec.gov/data/committee/C00952218/?cycle=2026,C00952218; total receipts 12047495.63
+fec-lsl,FEC: Lone Star Liberty PAC (super PAC backing Paxton),2026-cycle receipts and itemized contributions,https://www.fec.gov/data/committee/C00901223/?cycle=2026,C00901223; total receipts 29696321.83
+opensecrets,"OpenSecrets, Industries by Sector",the sector and industry labels the industry ranking uses,https://www.opensecrets.org/industries/slist,read 2026-10-30; saved copy sha256 f6107f470c08469ba050fae77a20abe44e418de33b5b748710cda657ce7ef2f7
